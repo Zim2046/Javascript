@@ -1,21 +1,32 @@
 for(var index = 1; index < 101; index++){
     if(index%3 == 0){
        if(index%5 == 0){
-        console.log("FizzBuzz");
+            printFizzBuzz();
        }
        else{
-        console.log("Fizz");
+            printFizz();
        }
     }
     else if(index%5 == 0){
         if(index%3 == 0){
-            console.log("FizzBuzz");
-           }
+            printFizzBuzz();
+        }
         else{
-            console.log("Buzz");
-           }
+            printBuzz();
+        }
     }
     else{
         console.log(index);
     }
+}
+
+// Refactoring Practice
+function printBuzz() {
+    console.log("Buzz");
+}
+function printFizz() {
+    console.log("Fizz");
+}
+function printFizzBuzz() {
+    console.log("FizzBuzz");
 }

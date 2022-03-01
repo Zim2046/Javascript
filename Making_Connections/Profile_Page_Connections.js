@@ -2,7 +2,7 @@
 
 var requests = 2;
 var connections = 418;
-var newName = "Timothy Thomas";
+var newName = "Itsmy Different Name";
 // var countPhil = 12;
 var connectElement = document.querySelector("#connections")
 var requestElement = document.querySelector("#requests")

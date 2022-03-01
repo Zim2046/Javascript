@@ -11,8 +11,6 @@
   height: 700px;
   margin: 0 auto;
 }
-
-/*  */
 .main {
   display: flex;
   justify-content: space-between;
@@ -30,12 +28,9 @@
   display: flex;
   justify-content: center;
 }
-/*  */
-
 .font {
   font-family: "Roboto", sans-serif;
 }
-
 .box-right {
   border: black solid 3px;
   padding: 20px;
@@ -65,11 +60,9 @@ img {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
 .flex p {
   margin-right: 20px;
 }
-
 .yellow-btn {
   border: solid black;
   background-color: #ffd966;

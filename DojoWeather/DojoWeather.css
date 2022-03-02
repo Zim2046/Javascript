@@ -95,8 +95,8 @@ img {
   box-shadow: 4px 4px 4px grey;
   /* change the position properties here */
   position: fixed;
-  right: 212px;
-  bottom: 193px;
+  bottom: auto;
+  right: auto;
 }
 #message img {
   width: 120px;
